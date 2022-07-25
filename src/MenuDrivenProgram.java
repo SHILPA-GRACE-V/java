@@ -10,18 +10,18 @@ public class MenuDrivenProgram {
         int b = sc.nextInt();
 
         System.out.println("Select operation");
-        System.out.println("Addition-a: Subtraction-s: Multiplication-m: Division-d: ");
-        char ch = sc.next().charAt(0);
+        System.out.println("Addition-1: Subtraction-2: Multiplication-3: Division-4: ");
+        int ch = sc.nextInt();
         switch(ch) {
-            case 'a' :
+            case '1' :
                 System.out.println("Sum of the given two numbers: "+(a+b));
                 break;
-            case 's' :
+            case '2' :
                 System.out.println("Difference between the two numbers: "+(a-b));
                 break;
-            case 'm' :
+            case '3' :
                 System.out.println("Product of the two numbers: "+(a*b));
-            case 'd' :
+            case '4' :
                 System.out.println("Result of the division: "+(a/b));
                 break;
             default :
